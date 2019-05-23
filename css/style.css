@@ -31,12 +31,18 @@ body{
     background-color: aqua;
 }
 
+.navbar-custom{
+    background-color: black;
+}
 .navbar-custom.navbar-nav li a{
     color: snow;
 }
 .navbar-custom .navbr-nav li a;hover {
-    color: darkgrey;
+    background-color: black;
 
+}
+a{
+    color: snow;
 }
 .navbar-header{
     padding-bottom: 5px; 
@@ -147,8 +153,8 @@ width: 10px;
     padding-top:25%;
 }
 .card-img-top{
-    width: 100%;
-    height: 15vw;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
 }
 .footer{
@@ -157,7 +163,14 @@ width: 10px;
 }
 img{
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
 
+@media screen and (max-width: 960px){
+    
+    
+    
 }
 /*
 figure{
